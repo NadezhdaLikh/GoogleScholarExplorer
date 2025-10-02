@@ -30,7 +30,7 @@ Additional functionality:
 
 ## Web Interface
 
-+ index.html – static entry page with a welcome message and form where the user selects the type of search (U = University, P = Profile, A = Author).
++ index.html – static entry page with a welcome message and form where the user selects the type of search: U = university search, P = profile search, A = author search.
 + AuthorSearch.jsp, ProfileSearch.jsp, UniversitySearch.jsp, UniversityResults.jsp – JSP pages for displaying search results.
 + list.jsp – JSP page for listing users dynamically (names are passed via request.getAttribute("userNames")).
 
@@ -41,7 +41,7 @@ Additional functionality:
 ## Running the Project
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/GoogleScholarExplorer.git
+git clone https://github.com/NadezhdaLikh/GoogleScholarExplorer.git
 ```
 
 2. Open the project in your IDE (e.g., IntelliJ IDEA).
