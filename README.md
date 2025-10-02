@@ -1,5 +1,5 @@
 # GoogleScholarExplorer - a Google Scholar search & monitoring tool
-## Consept 
+## Overview
 This is an information-analytical system for exploring and monitoring scientific publications using data from Google Scholar.
 
 Since Google Scholar does not provide a public API, the project uses the [SerpApi](https://serpapi.com/) service to fetch search results. Please note that SerpApi has a request limit. To run the application, you must supply your personal api_key in the request parameters.
