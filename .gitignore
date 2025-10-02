@@ -1,0 +1,23 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Maven build output
+target/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# JetBrains IDE local history
+.shelf/
+
+# IntelliJ http client requests
+.httpRequests/
+
+# Datasource configs (if any)
+dataSources/
+dataSources.local.xml

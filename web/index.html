@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Scholar Search</title>
+</head>
+<body>
+    <!-- header -->
+    <div>
+        <h1>Welcome!</h1>
+        <h2>
+            What are you looking for? Please enter either U (university) or P (profile).
+            <br>If you want to get more information about the author, enter A (author).
+        </h2>
+    </div>
+
+    <div>
+        <form action="/initial">
+            <p>
+                <label for="i_r">Now enter your request:</label>
+                <input type="text" name="initial_request" id="i_r" placeholder="U, P or A">
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </div>
+
+    <!--<div>       &lt;!&ndash; content &ndash;&gt;
+        <div>    &lt;!&ndash; buttons holder &ndash;&gt;
+            <button onclick="location.href='/list'">List users</button>
+            <button onclick="location.href='/university'">University</button>
+        </div>
+    </div>-->
+</body>
+</html>
